@@ -27,6 +27,8 @@ namespace RPG_Dio.src.Entities
             return 0;
         }
 
+        public virtual void TakeDamage(int Damage){}
+
         public override string ToString()
         {
             return $"Nome:{this.Name} Level:{this.Level} Tipo:{this.HeroType}  HP:{this.HealthPoints} MP:{this.MagicPoints}";

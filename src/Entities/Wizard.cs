@@ -30,5 +30,10 @@ namespace RPG_Dio.src.Entities
 
         }
 
+        public override void TakeDamage(int Damage)
+        {
+            this.HealthPoints = this.HealthPoints - Damage;
+        }
+
     }
 }

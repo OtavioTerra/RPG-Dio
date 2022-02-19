@@ -29,5 +29,10 @@ namespace RPG_Dio.src.Entities
             return StartEngine.RandValue(6);
         }
 
+        public void TakeDamage(int Damage, Knight Player)
+        {
+            Player.HealthPoints = Player.HealthPoints - Damage;
+        }
+
     }
 }

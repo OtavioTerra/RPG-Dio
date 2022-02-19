@@ -27,5 +27,10 @@ namespace RPG_Dio.src.Entities
             return StartEngine.RandValue(4);
 
         }
+
+        public override void TakeDamage(int Damage)
+        {
+            this.HealthPoints = this.HealthPoints - Damage;
+        }
     }
 }
