@@ -1,9 +1,8 @@
 namespace RPG_Dio.src.Entities
 {
-    public class Wizard : Characters
+    public class Enemies:Characters
     {
-        public Wizard(string name, int level, string herotype)
-        {
+        public Enemies(string name, int level, string herotype){
             this.Name = name;
             this.Level = level;
             this.HeroType = herotype;
@@ -13,22 +12,20 @@ namespace RPG_Dio.src.Entities
 
         public override int SetInitialHealthPoints()
         {
-            Engine StartEngine  = new Engine();
-            return StartEngine.RandValue(8) + 2;
+            Engine StartEngine = new Engine();
+            return StartEngine.RandValue(12) + 5;
         }
 
         public override int SetMagicPoints()
         {
             Engine StartEngine = new Engine();
-            return StartEngine.RandValue(10) + 2;
+            return StartEngine.RandValue(2) + 1;
         }
-
         public override int Attack()
         {
             Engine StartEngine = new Engine();
-            return StartEngine.RandValue(8);
+            return StartEngine.RandValue(4);
 
         }
-
     }
 }
