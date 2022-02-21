@@ -1,0 +1,6 @@
+Esse é um tutorial de como o jogo funciona.
+Nesse jogo você pode escolher entre ser um forte Knight ou um poderoso Wizard
+Para jogar você deve escolher uma das duas classes e testar sua sorte contra um poderoso inimigo
+------------------------------------------------------------------------------------------------------
+O que você deve fazer após escolher sua classe e o nome do seu personagem é ir passando os turnos 
+APERTANDO QUALQUER TECLA após as jogadas, até que seu herói ou o inimigo perca todos os pontos de vida

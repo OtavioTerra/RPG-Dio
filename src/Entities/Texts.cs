@@ -70,7 +70,8 @@ namespace RPG_Dio.src.Entities
         }
 
         public void Tutorial(){
-
+            string text = System.IO.File.ReadAllText(@"D:\workspace\RPG_DIO\RPG-Dio\tutorial.txt");
+            Console.WriteLine("{0}", text);
         }
 
     }

@@ -26,6 +26,7 @@ namespace RPGDio
         static void Play(Characters Player){
             int Damage, Rounds = 1;
             Texts Text = new Texts();
+            
             var Enemy = CreateEnemy();
             Text.HeroData();
             Text.PlayerStatus(Player);
@@ -69,6 +70,8 @@ namespace RPGDio
 
             Texts Text = new Texts();
             Text.StartGame();
+            Text.Tutorial();
+            Text.NewLine();
             string ClassPlayer = ClassChoice();
             string Name = PlayerName();
 
