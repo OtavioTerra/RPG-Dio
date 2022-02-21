@@ -13,3 +13,18 @@ D:\workspace\RPG Dio\RPG-Dio\obj\Debug\net6.0\RPG-Dio.dll
 D:\workspace\RPG Dio\RPG-Dio\obj\Debug\net6.0\ref\RPG-Dio.dll
 D:\workspace\RPG Dio\RPG-Dio\obj\Debug\net6.0\RPG-Dio.pdb
 D:\workspace\RPG Dio\RPG-Dio\obj\Debug\net6.0\RPG-Dio.genruntimeconfig.cache
+D:\workspace\RPG_DIO\RPG-Dio\bin\Debug\net6.0\RPG-Dio.exe
+D:\workspace\RPG_DIO\RPG-Dio\bin\Debug\net6.0\RPG-Dio.deps.json
+D:\workspace\RPG_DIO\RPG-Dio\bin\Debug\net6.0\RPG-Dio.runtimeconfig.json
+D:\workspace\RPG_DIO\RPG-Dio\bin\Debug\net6.0\RPG-Dio.dll
+D:\workspace\RPG_DIO\RPG-Dio\bin\Debug\net6.0\ref\RPG-Dio.dll
+D:\workspace\RPG_DIO\RPG-Dio\bin\Debug\net6.0\RPG-Dio.pdb
+D:\workspace\RPG_DIO\RPG-Dio\obj\Debug\net6.0\RPG-Dio.csproj.AssemblyReference.cache
+D:\workspace\RPG_DIO\RPG-Dio\obj\Debug\net6.0\RPG-Dio.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\RPG_DIO\RPG-Dio\obj\Debug\net6.0\RPG-Dio.AssemblyInfoInputs.cache
+D:\workspace\RPG_DIO\RPG-Dio\obj\Debug\net6.0\RPG-Dio.AssemblyInfo.cs
+D:\workspace\RPG_DIO\RPG-Dio\obj\Debug\net6.0\RPG-Dio.csproj.CoreCompileInputs.cache
+D:\workspace\RPG_DIO\RPG-Dio\obj\Debug\net6.0\RPG-Dio.dll
+D:\workspace\RPG_DIO\RPG-Dio\obj\Debug\net6.0\ref\RPG-Dio.dll
+D:\workspace\RPG_DIO\RPG-Dio\obj\Debug\net6.0\RPG-Dio.pdb
+D:\workspace\RPG_DIO\RPG-Dio\obj\Debug\net6.0\RPG-Dio.genruntimeconfig.cache

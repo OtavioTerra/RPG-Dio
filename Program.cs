@@ -24,7 +24,7 @@ namespace RPGDio
         }
 
         static void Play(Characters Player){
-            int Damage;
+            int Damage, Rounds = 1;
             Texts Text = new Texts();
             var Enemy = CreateEnemy();
             Text.HeroData();
@@ -36,6 +36,7 @@ namespace RPGDio
             Text.NewLine();
             
             while(true){
+                Text.PrintRounds(Rounds);
                 Damage = Player.Attack();
                 Text.DamageEnemy(Damage);
                 Enemy.TakeDamage(Damage);
@@ -48,18 +49,26 @@ namespace RPGDio
                 Text.PlayerStatus(Player);
                 Text.NewLine();
                 
-                if(Enemy.HealthPoints <= 0 || Player.HealthPoints <= 0) 
+                if(Enemy.HealthPoints <= 0) 
                 {   
+                    Text.YouWin();
                     Text.EndGame();
                     break;
                 }
+                else if(Player.HealthPoints <=0){
+                    Text.YouLose();
+                    Text.EndGame();
+                    break;
+                }
+                Rounds++;
                 Console.ReadLine();
             }
         }
 
         static void Main(string[] args){
-            Console.WriteLine("Bem vindo ao Jogo\n");
 
+            Texts Text = new Texts();
+            Text.StartGame();
             string ClassPlayer = ClassChoice();
             string Name = PlayerName();
 

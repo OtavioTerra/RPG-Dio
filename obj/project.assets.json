@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspace\\RPG Dio\\RPG-Dio\\RPG-Dio.csproj",
+      "projectUniqueName": "D:\\workspace\\RPG_DIO\\RPG-Dio\\RPG-Dio.csproj",
       "projectName": "RPG-Dio",
-      "projectPath": "D:\\workspace\\RPG Dio\\RPG-Dio\\RPG-Dio.csproj",
+      "projectPath": "D:\\workspace\\RPG_DIO\\RPG-Dio\\RPG-Dio.csproj",
       "packagesPath": "C:\\Users\\Otávio\\.nuget\\packages\\",
-      "outputPath": "D:\\workspace\\RPG Dio\\RPG-Dio\\obj\\",
+      "outputPath": "D:\\workspace\\RPG_DIO\\RPG-Dio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Visual Studio\\Shared\\NuGetPackages"
